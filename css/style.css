@@ -1,0 +1,119 @@
+@import url('https://fonts.cdnfonts.com/css/core-sans-a');
+@import url('https://fonts.cdnfonts.com/css/vogan');
+@import url('https://fonts.cdnfonts.com/css/ubuntu');
+
+html {
+    background-color: #181818;
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffffff;
+}
+
+nav {
+    z-index: 1;
+}
+
+ol {
+  columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
+}
+
+ul {
+  columns: 4;
+  -webkit-columns: 4;
+  -moz-columns: 4;
+}
+
+.logo {
+    fill: #e50914;
+    padding-top: 0.3rem;
+    width: auto;
+    height: 2.5rem;
+}
+
+.vignette {
+    box-shadow: 40rem 0px 55px -17px rgba(0,0,0,0.69) inset;
+    -webkit-box-shadow: 40rem 0px 55px -17px rgba(0,0,0,0.69) inset;
+    -moz-box-shadow: 40rem 0px 55px -17px rgba(0,0,0,0.69) inset;
+}
+
+.judul-1 {
+    padding: 2rem 0 0 2rem;
+}
+
+.judul-1 span {
+    font-family: 'Core Sans A', sans-serif;
+    color: #cacaca;   
+    letter-spacing: 0.25rem;                             
+    padding-left: 0.5rem;
+}
+
+.judul-2 {
+    font-family: 'Vogan', sans-serif;
+    padding: 0.5rem 0 2rem 2rem;                                   
+}
+
+.judul-2 span {
+    font-family: serif;
+    padding: 0 0.7rem 0 0.5rem;
+}
+
+.teaser g {
+    z-index: 0;
+}
+
+.teaser svg {
+    top: 20vh;
+    left: 0.5rem;
+}
+
+.button-video {
+    width: 50px;
+    height: 50px;
+}
+
+select {
+    background-image: url( https://coothead.co.uk/images/world.png );
+	background-repeat: no-repeat;
+	background-size: 0.8em auto;
+	background-position: 0.4em center;
+}
+
+.episode .vignette-2 {
+    box-shadow: 0px -61px 19px -17px rgba(0,0,0,0.75) inset;
+    -webkit-box-shadow: 0px -61px 19px -17px rgba(0,0,0,0.75) inset;
+    -moz-box-shadow: 0px -61px 19px -17px rgba(0,0,0,0.75) inset;
+}
+
+@media (max-width: 640px) {
+    .hide-logo { display: none;
+    }
+    .vignette {
+        box-shadow: 0px -500px 116px -44px rgba(0,0,0,0.75) inset;
+        -webkit-box-shadow: 0px -500px 116px -44px rgba(0,0,0,0.75) inset;
+        -moz-box-shadow: 0px -500px 116px -44px rgba(0,0,0,0.75) inset;
+    }
+    ol {
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    }
+    ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 1024px) {
+    ol {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    }
+    ul {
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    }
+}
